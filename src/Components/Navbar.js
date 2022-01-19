@@ -13,7 +13,7 @@ const NavBar = ({handleSearch})=> {
     const[rating,setRating] = useState(0);
 return(
     <div className="nav">
-        <h1>Movies App</h1>
+        <h1>Yasmina's Movie App</h1>
         <div className="block">
         <StarRatingComponent className="rating"
         starCount={5}
